@@ -1,0 +1,36 @@
+.about {
+  margin-top: 150px;
+  margin-left: 40px;
+
+  background-color: rgb(241, 240, 240);
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+
+.heading {
+  display: flex;
+  letter-spacing: 2px;
+  justify-content: center;
+}
+
+.subheading {
+  display: flex;
+  letter-spacing: 2px;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.para {
+  letter-spacing: 1px;
+  margin-left: 50px;
+  padding-bottom: 50px;
+  margin-right: 50px;
+}
+
+.line {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #d18a05;
+  border-width: 7px;
+  width: 7%;
+}

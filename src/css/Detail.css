@@ -1,0 +1,14 @@
+.detailed__product {
+  margin-top: 150px;
+  margin-left: 40px;
+}
+
+.product__image {
+  margin-left: 60px;
+  width: 500px;
+  height: 300px;
+}
+
+.product__detail {
+  margin-left: 60px;
+}

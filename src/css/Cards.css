@@ -1,0 +1,17 @@
+.products {
+  object-fit: contain;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 20px;
+  background-color: rgb(240, 239, 238);
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+
+.card:hover {
+  transition: all 0.5s ease;
+  transform: scale(1.09);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+}

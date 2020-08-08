@@ -1,0 +1,81 @@
+.nav-show {
+  background-color: #111;
+}
+
+.header {
+  width: 100%;
+
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("/images/main.jpg");
+}
+
+.nav-all {
+  background-color: #111;
+}
+.options {
+  background-color: #d18a05;
+}
+
+.brand {
+  font-family: "Billabong";
+  letter-spacing: 2px;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+.dropbtn {
+  margin-top: 20px;
+  background: transparent;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #c98404;
+  padding: 20px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  margin-left: 650px;
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 3px;
+  display: none;
+  position: absolute;
+  background: #111;
+  min-width: 160px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #a5700c;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background: transparent;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background: transparent;
+}
