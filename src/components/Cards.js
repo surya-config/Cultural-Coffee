@@ -8,7 +8,11 @@ function Cards({ id, title, desc, source }) {
   return (
     <div className="products">
       <Card className="card">
-        <Card.Img variant="top" src={source} height="300px" />
+        <Card.Img
+          variant="top"
+          src={source}
+          style={{ maxWidth: "500px", height: "400px" }}
+        />
         <Card.Body style={{ marginTop: "20px" }}>
           <Card.Title>{title}</Card.Title>
           <Card.Text>{desc}</Card.Text>

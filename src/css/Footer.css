@@ -1,11 +1,23 @@
 .footer {
-  margin-top: 100px;
-  left: 0;
   bottom: 0;
-  object-fit: contain;
-  width: 100%;
+  position: relative;
+  margin-top: 10%;
+  min-height: -webkit-calc(100% - 186px);
+  min-height: -moz-calc(100% - 186px);
+  min-height: calc(100% - 186px);
+  min-width: 100%;
+  padding: 20px 0;
+
   background-color: #111;
+  background-position: center center;
+  min-width: 100%;
+  background-size: cover;
   color: #d18a05;
+}
+
+.footer-inner {
+  width: 80%;
+  margin: 0 auto 0 auto;
 }
 
 .contact {
@@ -31,8 +43,8 @@
   width: 50px;
   height: 50px;
   color: #d18a05;
-  margin-top: 70px;
-  margin-right: 35px;
+  margin-top: 30%;
+  margin-right: 10%;
 }
 
 .link:hover {

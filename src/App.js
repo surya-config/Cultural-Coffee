@@ -4,7 +4,7 @@ import About from "./components/About";
 import Detail from "./components/Detail";
 import Home from "./components/Home";
 
-import { Route, Switch } from "react-router-dom";
+import { Route, Switch, Redirect } from "react-router-dom";
 import Corporate from "./components/Corporate";
 
 function App() {

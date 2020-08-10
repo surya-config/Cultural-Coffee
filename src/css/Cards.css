@@ -1,11 +1,6 @@
 .products {
-  object-fit: contain;
-  width: auto;
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
   margin: 20px;
-  background-color: rgb(240, 239, 238);
   padding-bottom: 50px;
   padding-top: 20px;
 }

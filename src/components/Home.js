@@ -4,9 +4,9 @@ import "../css/Home.css";
 import Cards from "./Cards";
 
 import data from "../data";
-import NavTop from "./NavTop";
 import Header from "./Header";
 import Footer from "./Footer";
+import NavTop from "./NavTop";
 
 function Home() {
   return (
