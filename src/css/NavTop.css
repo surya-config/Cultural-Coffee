@@ -4,7 +4,6 @@
 
 .header {
   width: 100%;
-
   transition-timing-function: ease-in;
   transition: all 0.5s;
   object-fit: contain;
@@ -21,7 +20,7 @@
 }
 
 .brand {
-  font-family: "Billabong";
+  font-family: "Vollkorn";
   letter-spacing: 2px;
   margin-top: 20px;
   margin-left: 100px;
@@ -30,7 +29,9 @@
 .dropbtn {
   margin-top: 20px;
   background: transparent;
-  font-weight: 600;
+  outline: thin;
+  font-size: 25px;
+  font-weight: 800;
   letter-spacing: 2px;
   color: #c98404;
   padding: 20px;
@@ -48,7 +49,7 @@
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Vollkorn";
   letter-spacing: 3px;
   display: none;
   position: absolute;
@@ -67,7 +68,7 @@
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-  background: transparent;
+  background: white;
 }
 
 /* Show the dropdown menu on hover */
@@ -78,4 +79,14 @@
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
   background: transparent;
+}
+
+.menuitem {
+  font-size: 18px;
+  font-family: "'courgette',Playfair Display";
+}
+
+.menuitem:hover {
+  color: #a5700c;
+  text-decoration: none;
 }

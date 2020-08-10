@@ -4,7 +4,6 @@ import "../css/Footer.css";
 import WhatsAppIcon from "@material-ui/icons/WhatsApp";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import FacebookIcon from "@material-ui/icons/Facebook";
-import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -29,16 +28,17 @@ function Footer() {
         </div>
         <div className="links">
           <h6>Follow us on</h6>
-          <h6>info@cultural.coffee</h6>
+
+          <h6> info@cultural.coffee</h6>
+
+          <h6>shreyasculturalcoffee@gmail.com culturalcoffeesales@gmail.com</h6>
+          <br />
           <a
             href="https://instagram.com/cultural_coffee?igshid=5isqr1xa3k6k"
             className="link"
           >
             <InstagramIcon style={{ fontSize: "40px" }} />
           </a>
-          <br />
-          <br />
-
           <a href="https://m.facebook.com/Marksmencoffee/" className="link">
             <FacebookIcon style={{ fontSize: "40px" }} />
           </a>

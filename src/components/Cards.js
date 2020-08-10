@@ -8,8 +8,8 @@ function Cards({ id, title, desc, source }) {
   return (
     <div className="products">
       <Card className="card">
-        <Card.Img variant="top" src={source} />
-        <Card.Body>
+        <Card.Img variant="top" src={source} height="300px" />
+        <Card.Body style={{ marginTop: "20px" }}>
           <Card.Title>{title}</Card.Title>
           <Card.Text>{desc}</Card.Text>
           <Button

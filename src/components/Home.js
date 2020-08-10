@@ -25,7 +25,7 @@ function Home() {
             id={item.id}
             title={item.title}
             desc={item.desc}
-            source={item.source}
+            source={item.thumbnail}
           />
         ))}
       </div>

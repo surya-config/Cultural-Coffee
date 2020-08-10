@@ -5,28 +5,14 @@ const data = [
     desc: "Down to earth but still excites you ...",
     description: [
       {
-        heading: "EVERY COFFEE BEAN HAS A STORY TO TELL",
+        heading:
+          "Get yourself a strong grounded coffee that will join you to navigate even the stormiest roads in peace.",
         para:
-          "From planters to your mug, the coffee beans journey is an adventure. Explore the epic journey of the dark and mysterious fruit that wakes you up every morning.",
-      },
-      {
-        heading: "PLANTATION",
-        para:
-          "The coffee bean has a humble beginning. Born in a bundle of red delights the small fruit starts its life from the western ghats.",
-      },
-      {
-        heading: "HARVESTING",
-        para:
-          "Though it may seem hearty and tough, coffee is always hand picked, rake and sorted.",
-      },
-      {
-        heading: "PROCESSING",
-        para:
-          "Once the beans are stripped of their red shell they’re milled together at high temperatures. Luckily the bean is never alone.",
+          "If you have a solid foundation, the roughest time of life can’t shake you down. Make yourself a cup of cultural power filter coffee today so that you have strength to stand up for what you believe.Cultural power beverage is an essential to make it through the day in one piece. Take care of your body by spending time with nature and enjoy each movement in life. It also means that you are centered and feel safe within your own skin.",
       },
     ],
-    source:
-      "https://images.news18.com/ibnlive/uploads/2016/10/coffee-feautred-1.jpg",
+    source: "/images/power.jpeg",
+    thumbnail: "/images/powerfinal.jpeg",
   },
   {
     id: "2",
@@ -34,28 +20,14 @@ const data = [
     desc: "In a  world  where you  can  be yourself ...  ",
     description: [
       {
-        heading: "EVERY COFFEE BEAN HAS A STORY TO TELL",
+        heading:
+          "No one is you and that is your power. It’s never too late to have a life you love don’t ever feel like you’ve missed the cup.",
         para:
-          "From planters to your mug, the coffee beans journey is an adventure. Explore the epic journey of the dark and mysterious fruit that wakes you up every morning.",
-      },
-      {
-        heading: "PLANTATION",
-        para:
-          "The coffee bean has a humble beginning. Born in a bundle of red delights the small fruit starts its life from the western ghats.",
-      },
-      {
-        heading: "HARVESTING",
-        para:
-          "Though it may seem hearty and tough, coffee is always hand picked, rake and sorted.",
-      },
-      {
-        heading: "PROCESSING",
-        para:
-          "Once the beans are stripped of their red shell they’re milled together at high temperatures. Luckily the bean is never alone.",
+          "This finest specimen of cultural premia is created with some of the companies single origin beans using the finest blends. It is one of the best blends available in the market that enriches the premium segment with delightful option. ",
       },
     ],
-    source:
-      "https://images.news18.com/ibnlive/uploads/2016/10/coffee-feautred-1.jpg",
+    source: "/images/premia.jpeg",
+    thumbnail: "/images/premiafinal.jpeg",
   },
   {
     id: "3",
@@ -63,28 +35,14 @@ const data = [
     desc: "In a  world  where you  can  be yourself ...  ",
     description: [
       {
-        heading: "EVERY COFFEE BEAN HAS A STORY TO TELL",
+        heading:
+          "In a world where you can be anything, be yourself. Let people see the real, imperfect, flawed, quirky, weird, beautiful, magical person that you are. ",
         para:
-          "From planters to your mug, the coffee beans journey is an adventure. Explore the epic journey of the dark and mysterious fruit that wakes you up every morning.",
-      },
-      {
-        heading: "PLANTATION",
-        para:
-          "The coffee bean has a humble beginning. Born in a bundle of red delights the small fruit starts its life from the western ghats.",
-      },
-      {
-        heading: "HARVESTING",
-        para:
-          "Though it may seem hearty and tough, coffee is always hand picked, rake and sorted.",
-      },
-      {
-        heading: "PROCESSING",
-        para:
-          "Once the beans are stripped of their red shell they’re milled together at high temperatures. Luckily the bean is never alone.",
+          "Cultural filter coffee gold is an unique signature edition designed recipe which helps you enjoy every sip of nature’s finest coffee beans handpicked by farmers to your pack. Freshly roasted and grounded coffee blend which is enriched with only the finest Arabica beans.  ",
       },
     ],
-    source:
-      "https://images.news18.com/ibnlive/uploads/2016/10/coffee-feautred-1.jpg",
+    source: "/images/gold.jpeg",
+    thumbnail: "/images/goldfinal.jpeg",
   },
   {
     id: "4",
@@ -112,8 +70,8 @@ const data = [
           "Once the beans are stripped of their red shell they’re milled together at high temperatures. Luckily the bean is never alone.",
       },
     ],
-    source:
-      "https://images.news18.com/ibnlive/uploads/2016/10/coffee-feautred-1.jpg",
+    source: "/images/roasted-coffee-bean.jpeg",
+    thumbnail: "/images/roasted-coffee-bean.jpeg",
   },
 ];
 

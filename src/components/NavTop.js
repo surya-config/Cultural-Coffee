@@ -7,6 +7,7 @@ import "../css/NavTop.css";
 function NavTop() {
   const [show, handleShow] = useState(false);
   useEffect(() => {
+    window.scrollTo(0, 0);
     window.addEventListener("scroll", () => {
       if (window.scrollY > 100) {
         handleShow(true);
@@ -21,7 +22,14 @@ function NavTop() {
     <div>
       <Navbar className={`navbar  ${show && "nav-show"} `} fixed="top">
         <Navbar.Brand className="brand" href="/">
-          <h1 style={{ fontSize: "38px", color: "#A5700C" }}>
+          <h1
+            style={{
+              letterSpacing: "5px",
+              fontSize: "40px",
+              color: "#A5700C",
+              fontFamily: "'courgette',Playfair Display",
+            }}
+          >
             Cultural Coffee<sup>®</sup>
           </h1>
         </Navbar.Brand>
@@ -29,9 +37,15 @@ function NavTop() {
           <div class="dropdown">
             <button class="dropbtn">Menu</button>
             <div class="dropdown-content">
-              <Link to="/">Home</Link>
-              <Link to="/about">About</Link>
-              <Link to="/corporate">Corporate</Link>
+              <Link className="menuitem" to="/">
+                Home
+              </Link>
+              <Link className="menuitem" to="/about">
+                About
+              </Link>
+              <Link className="menuitem" to="/corporate">
+                Corporate
+              </Link>
             </div>
           </div>
         </Nav>

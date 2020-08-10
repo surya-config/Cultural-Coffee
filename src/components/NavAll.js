@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 import "../css/NavTop.css";
 
 function NavAll() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div>
       <Navbar className="nav-all" fixed="top">
@@ -17,9 +21,15 @@ function NavAll() {
           <div class="dropdown">
             <button class="dropbtn">Menu</button>
             <div class="dropdown-content">
-              <Link to="/">Home</Link>
-              <Link to="/about">About</Link>
-              <Link to="/corporate">Corporate</Link>
+              <Link className="menuitem" to="/">
+                Home
+              </Link>
+              <Link className="menuitem" to="/about">
+                About
+              </Link>
+              <Link className="menuitem" to="/corporate">
+                Corporate
+              </Link>
             </div>
           </div>
         </Nav>
